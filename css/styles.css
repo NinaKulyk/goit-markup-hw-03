@@ -57,7 +57,6 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
 }
 
 .header-logo-link {
@@ -70,6 +69,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header-logo-accent {
