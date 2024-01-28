@@ -318,9 +318,6 @@ button {
 }
 
 .portfolio-item-img {
-  margin-bottom: 32px;
-  width: 100%;
-  object-fit: cover;
 }
 
 .portfolio-item-subtitle {
