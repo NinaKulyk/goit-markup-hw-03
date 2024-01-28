@@ -32,9 +32,8 @@ button {
 
 .container {
   width: 100%;
-  max-width: 1440px;
-  padding-right: 156px;
-  padding-left: 156px;
+  width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -55,6 +54,7 @@ button {
   display: flex;
   align-items: center;
   flex-grow: 1;
+  padding: 24px 0;
 }
 
 .header-logo-link {
@@ -66,6 +66,7 @@ button {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-accent {
@@ -129,13 +130,16 @@ button {
   min-height: 600px;
 }
 
+.hero-container {
+  padding: 188px 0;
+}
+
 .hero-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
-  padding-top: 188px;
   margin: 0 auto;
   margin-bottom: 48px;
   max-width: 496px;
@@ -155,6 +159,7 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   display: block;
   margin: 0 auto;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -167,6 +172,24 @@ button {
 /*=======OFFER=======*/
 
 .offer {
+}
+
+.offer-container {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .offer-list {
@@ -184,7 +207,6 @@ button {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 8px;
 }
 
@@ -193,7 +215,6 @@ button {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 120px;
 }
 
 /*===================*/
@@ -202,6 +223,13 @@ button {
 
 .team {
   background-color: #f4f4fd;
+}
+
+.team-container {
+}
+
+.team-item-container {
+  padding: 32px 0;
 }
 
 .team-title {
@@ -232,7 +260,6 @@ button {
 }
 
 .team-item-img {
-  margin-bottom: 32px;
 }
 
 .team-item-subtitle {
@@ -249,7 +276,6 @@ button {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
 }
 
 /*===================*/
@@ -260,6 +286,7 @@ button {
 }
 
 .portfolio-container {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -270,7 +297,6 @@ button {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -281,9 +307,14 @@ button {
 }
 
 .portfolio-item {
-  border: 1px solid #e7e9fc;
   background: var(--WHITE, #fff);
   flex-basis: calc((100% - 2 * 24px) / 3);
+}
+
+.portfolio-item-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-img {
@@ -299,15 +330,12 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding-left: 16px;
 }
 
 .portfolio-item-text {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  padding-left: 16px;
 }
 
 /*===================*/
@@ -319,7 +347,7 @@ button {
 }
 
 .footer-container {
-  padding-top: 100px;
+  padding: 100px 0;
 }
 
 .footer-logo-link {
@@ -330,6 +358,8 @@ button {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-accent {
@@ -341,7 +371,5 @@ button {
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding-bottom: 100px;
-  margin-top: 18px;
   max-width: 264px;
 }
