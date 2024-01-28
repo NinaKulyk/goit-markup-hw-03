@@ -30,6 +30,10 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 100%;
   width: 1158px;
@@ -54,7 +58,6 @@ button {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 24px 0;
 }
 
 .header-logo-link {
@@ -77,6 +80,7 @@ button {
   display: flex;
   gap: 40px;
   margin-left: 76px;
+  padding: 24px 0;
 }
 
 .header-nav-menu-item {
@@ -172,10 +176,10 @@ button {
 /*=======OFFER=======*/
 
 .offer {
+  padding: 188px 0;
 }
 
 .offer-container {
-  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -223,6 +227,7 @@ button {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-container {
@@ -247,7 +252,6 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-list-item {
@@ -269,6 +273,7 @@ button {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .team-item-text {
@@ -283,11 +288,11 @@ button {
 /*=====PORTFOLIO=====*/
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -341,10 +346,10 @@ button {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-container {
-  padding: 100px 0;
 }
 
 .footer-logo-link {
