@@ -70,7 +70,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .header-logo-accent {
@@ -81,6 +80,7 @@ img {
   display: flex;
   gap: 40px;
   margin-left: 76px;
+  padding: 24px 0;
 }
 
 .header-nav-menu-item {
