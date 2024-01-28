@@ -80,11 +80,9 @@ img {
   display: flex;
   gap: 40px;
   margin-left: 76px;
-  padding: 24px 0;
 }
 
 .header-nav-menu-item {
-  padding: 24px 0;
 }
 
 .header-nav-menu-link {
@@ -93,6 +91,7 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .header-nav-menu-link:hover,
