@@ -57,7 +57,7 @@ img {
 .header-nav {
   display: flex;
   align-items: center;
-  flex-grow: 1;
+  margin-right: auto;
 }
 
 .header-logo-link {
@@ -79,7 +79,6 @@ img {
 .header-nav-menu {
   display: flex;
   gap: 40px;
-  margin-left: 76px;
 }
 
 .header-nav-menu-item {
@@ -244,7 +243,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
